@@ -1,5 +1,47 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: #282828;
 }
 
+
+/* Header */
+header {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 25px;
+}
+
+/* Main */
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.caption {
+    margin: 0px 25px;
+}
+
+.item-img{
+    width: 100%;
+}
