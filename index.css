@@ -19,6 +19,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logo {
@@ -28,6 +29,10 @@ ul {
 
 .icon {
     width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
 }
 
 /* Main */
@@ -42,6 +47,20 @@ h1 {
     margin: 0px 25px;
 }
 
-.item-img{
+.item-img {
     width: 100%;
+}
+
+/* Item section */
+.item {
+    position: relative;
+}
+
+.img-banner {
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
